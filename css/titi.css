@@ -1,0 +1,158 @@
+/*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}*/
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: #141414;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 40px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo img{
+    border-radius: 50%;
+    height: 70px;
+    width: auto;
+    transition: all;
+    margin-left: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: beige;
+    text-decoration: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: #3f3f3f;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.header{
+    height: 60vh !important;
+    background: url(sewy.avif) no-repeat center;
+    background-size: cover;
+}*/
+
+/*.title{
+    margin-bottom: 0,0001px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(248, 248, 148);
+}*/ 
+
+/*p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: beige;
+}*/
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: beige;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+/*.about{
+    background: #101010;
+}
+
+.price{
+    background: url(ee.jpg) no-repeat center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+}*/
+
+
